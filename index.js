@@ -1,3 +1,4 @@
+console.log($(document));
 $(document).ready(function () {
   $(document).on("click", ".next", function () {
     const currentImg = $(".active");
